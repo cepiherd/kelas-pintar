@@ -1,5 +1,5 @@
 <script>
-    import FloatingSection from "../components/floating/floatingSection.svelte";
+    // import FloatingSection from "../components/floating/floatingSection.svelte";
     import { Envelope , Phone , Linkedin } from "svelte-bootstrap-icons"
 </script>
 
@@ -22,4 +22,4 @@
 
     </div>
 </section>
-<FloatingSection/>
+<!-- <FloatingSection/> -->
