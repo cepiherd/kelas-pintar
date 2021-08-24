@@ -10,7 +10,7 @@
             sesuai dengan pelajaran di sekolah untuk SD-SMA</h4>
         <Button title={"COBA BELAJAR DENGAN KELAS PINTAR GRATIS !"} classColor={"bg-btn-yellow-intro"} classTextColor={"text-indigo-700 "}/>
         <br>
-        <Button title={"INFO LENGKAP SIAP PINTAR"} classColor={"bg-btn-yellow-intro"} classTextColor={"text-indigo-700 w-full"}/>
+        <Button title={"INFO LENGKAP SIAP PINTAR"} classColor={"bg-btn-yellow-intro"} classTextColor={"text-indigo-700 w-full md:w-auto sm:w-auto"}/>
     </div>
     <div class="p2">
         <img src={"https://cdn.extramarks.id/web/images/website_v7/kp-home-thumbnail.png"} alt="#">
