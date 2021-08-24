@@ -11,7 +11,7 @@
         <img src={subImage} alt="#" class="mx-auto">
     </div>
     <div class="pb-10">
-        <p>
+        <p class="text-black">
             {desc}
         </p>
     </div>

@@ -2,6 +2,7 @@
     import Icon from 'svelte-awesome/components/Icon.svelte'
     import { bars } from 'svelte-awesome/icons';
     import ToogleMenu from '../components/MenuBar/ToggleMenu.svelte'
+    import { fade } from 'svelte/transition'
     const MenuLists = [
       {
         title: 'Solusi Murid',
@@ -51,7 +52,7 @@
 </script>
 <svelte:window bind:scrollY={y}/>
 
-<div class={`w-full border-b-2   bg-transparent ${isScroll === true ? "fixed bg-white text-black" : "text-white"}`}>
+<div class={`w-full border-b-2   bg-transparent ${isScroll === true ? "fixed bg-white text-black z-10	" : "text-white"}`} transition:fade>
         <div class="container mx-auto flex ">
         <button class="px-3 py-1 block sm:hidden md:hidden" on:click={()=> handleOpenMenu = !handleOpenMenu}>
             <Icon data={bars} scale={1}/>
